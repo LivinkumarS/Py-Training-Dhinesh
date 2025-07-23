@@ -1,0 +1,16 @@
+What is Python?
+High-level,
+Interpreted,
+General-purpose Programming Language.
+
+Extension---> .py
+
+Key Features
+--------------
+Easy to read and write.
+Dynamically Typed language.(no need to declare variable types)
+Supports multiple Programming Concepts (OOP, Functional Programming).
+
+print(55)---> 55 will be prited out in output.
+input("Question")---> to get input from the user.
+varname=value

@@ -5,6 +5,8 @@ General-purpose Programming Language.
 
 Extension---> .py
 
+To Create Comments---> single line comment  --> # comment, Multi line comment '''comments'''
+
 Key Features
 --------------
 Easy to read and write.
@@ -14,3 +16,33 @@ Supports multiple Programming Concepts (OOP, Functional Programming).
 print(55)---> 55 will be prited out in output.
 input("Question")---> to get input from the user.
 varname=value
+
+Variable
+--------------
+A variable is a name that refers to a value stored in a memory.
+Rules
+------
+>> Must start with a letter or underscore (_)
+>> But it can contain letters, numbers and underscore
+>> case sensitive
+>> avoid revserved keywords name.
+
+Datatype
+----------
+Python is Dynamically Typed Language, so you don't need to declare the data type explicitly.
+
+Datatype:
+---------
+Integer--> Int ---> whole numbers (...-3,-2,-1,0,1,2,3...)
+float---> Decimal Numbers (3.14, 2.33434, 10.12, 12,5..)
+string---> str ---> Sequence of char--> '',"" (concat---> +), formatting(f'').
+boolean--> bool ---> True or False
+
+Type Casting
+-------------
+type()--> used to find type of any value
+
+str--> int ---> int('')
+int--str ---> str(10)
+str--> float---> float('')
+bool()---> converting into bool.

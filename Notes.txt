@@ -46,3 +46,56 @@ str--> int ---> int('')
 int--str ---> str(10)
 str--> float---> float('')
 bool()---> converting into bool.
+
+
+Operators
+-----------
+Arithmetic Operator 
+----------------------
+Used to perform mathematical operation.
+
+Add---> +
+Sub---> -
+mul---> *
+div---> /
+Floor Division---> //
+Modulus---> %
+Exponentiation--> **
+
+Comparison Operator 
+---------------------
+Used to compare values and it will return boolean values 
+
+== ---> equal to
+!= ---> not equal to 
+> ---> greater than 
+< ---> lesser than 
+>=---> greater than or equal
+<=---> lesser than or equal
+
+Logical Operators
+------------------
+used to combine multiple conditions
+and---> Both conditions must be True.
+or---> any one condition must be True.
+not--> revert the result.
+
+Assignment Operator 
+--------------------
+= ---> Assign 
++= --> Add and Assign 
+-= ---> sub assign 
+*=
+/=
+//=
+%=
+**=
+
+Bitwise Operator 
+-----------------
+AND---> &---> operates with bit values.
+OR---> |---> operates with bit values.
+X-OR---> ^ ---> operates with bit values.(same--> 0, diff--> 1)
+NOT---> ~ ---> ~a = -(a+1)
+Right Shift
+Left Shift

@@ -97,5 +97,5 @@ AND---> &---> operates with bit values.
 OR---> |---> operates with bit values.
 X-OR---> ^ ---> operates with bit values.(same--> 0, diff--> 1)
 NOT---> ~ ---> ~a = -(a+1)
-Right Shift
-Left Shift
+Right Shift---> >>
+Left Shift ---> <<

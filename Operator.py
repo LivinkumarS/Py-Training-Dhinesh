@@ -45,3 +45,5 @@ b=4
 # print(a | b)
 # print(a ^ b)
 # print(~8)
+# print(5>>2)
+# print(5<<4)

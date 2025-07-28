@@ -99,3 +99,45 @@ X-OR---> ^ ---> operates with bit values.(same--> 0, diff--> 1)
 NOT---> ~ ---> ~a = -(a+1)
 Right Shift---> >>
 Left Shift ---> <<
+
+Control Flow - if, else, elif
+-------------------------------
+control flow lets you execute the block of code according to the condition.
+>> It runs one specific block,
+>> Ignores others
+
+If statement
+-------------
+if condition:
+    # block of code
+
+condition is True--> block of code will get executed.
+
+Else Statement 
+---------------
+else should come along with if statement.
+
+else:
+    # block of code
+
+it will be executed when if condition is False.
+
+Else if (elif) block:
+----------------
+else if should come along with if statement.
+
+elif condition:
+    #block of code
+
+Nested If Blocks
+------------------
+write an if inside another if.
+if condition1:
+    if condition2:
+        #block of code
+
+Ternary Operator 
+--------------------
+one line if-else expression.
+
+a= val1 if condition else val2

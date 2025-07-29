@@ -140,4 +140,29 @@ Ternary Operator
 --------------------
 one line if-else expression.
 
-a= val1 if condition else val2
+a= val1 if condition else val2.
+
+Loops
+------
+Loops help to repeat a block of code multiple times.
+
+1) while Loop  (when number of iteration is not known)
+----------------
+syntax:
+--------
+while condition:
+    #block of code
+
+as long as the condition is True, the while loop will keep iterating the block of code.
+
+2) for Loop    (when number of iteration is known)
+----------------
+used to iterate an iterable datatype.
+syntax:
+for var in iterableDatatype:
+    #block of code.
+
+Control Statements
+-------------------
+break----> stop the loop immediately
+continue ---> it will skip the current iteration

@@ -166,3 +166,59 @@ Control Statements
 -------------------
 break----> stop the loop immediately
 continue ---> it will skip the current iteration
+
+task
+-----
+number input.
+prime.
+not prime.
+
+Datastructures
+----------------
+
+common inbuilt method for all iterable datatype ---> len()
+
+List
+------
+Ordered, mutable and allows duplicate element.
+[val1,val2,va3].
+defined using [].
+
+Iterable datatype---> we can access each and every element in it using index number.
+
+Inbuilt methods.
+-----------------
+list.append(ele)----> adding an element at the end
+list.insert(ind,ele)----> adding an element at any specific place we want
+list.remove(ele)--> remove an element from a list.(first occurance).
+list.pop()---> remove the last 
+list.sort()---> arranging in asc order.
+list.reverse()---> reverse the list.
+
+Tuple
+------
+Immutable, allows duplicates, Iterable
+defined using ().
+
+Sets 
+----
+no duplicates are allowed,mutable, not iterable.
+defined using {}.
+
+set.add(ele)
+set.remove(val)
+
+Type Casting amoung these three---> set(), list(), tuple()
+
+Dictionary
+----------
+key-value pairs.
+duplicates are allowed,
+mutable
+defined using {key:value}
+
+del dict[key]----> deleting a key value pair.
+
+dict.keys()---> return list of keys
+dict.values()---> return list of values
+dict.items()---> return list of tuples(key,value)

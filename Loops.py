@@ -29,3 +29,6 @@ for i in range(51):
     if i==15:
         continue
     print(i)
+    
+    
+    

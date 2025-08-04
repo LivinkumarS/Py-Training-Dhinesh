@@ -222,3 +222,41 @@ del dict[key]----> deleting a key value pair.
 dict.keys()---> return list of keys
 dict.values()---> return list of values
 dict.items()---> return list of tuples(key,value)
+
+
+Function 
+---------
+>> Block of reusable code that performs specific task.
+
+syntax:
+--------
+def function'sName():
+    #block of code
+
+Calling a function:
+---------------------
+funcname()
+
+In-built functions---> print(), input(), type()...
+
+Parameters and Arguements
+--------------------------
+p---> the variable assignment while iniating a function. that can be accessed only within that function.
+a---> passing value to the Parameters.
+
+"return" keyword:
+------------------
+>> to break the function.
+>> return a value to the caller.
+
+
+Scope:
+-------
+
+Local Scope:
+----------------
+Defined inside a function. This can be accessed inside that function only.
+
+Global Scope:
+---------------
+Defined outside a function. can be accessed anywhere.

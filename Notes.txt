@@ -260,3 +260,35 @@ Defined inside a function. This can be accessed inside that function only.
 Global Scope:
 ---------------
 Defined outside a function. can be accessed anywhere.
+
+Strings
+---------
+A string is a sequence of charavters enclosed in a single(' ') or double(" ").
+
+''' ---> to store a paragraph
+
+to find out length---> len(str)
+
+Extract Part Of String
+----------------------
+str[start:end]
+str[:end]
+str[start:]
+str[::-1]
+
+Concatination---> + Operator is used to concat two strings.
+
+Built-in Methods 
+-------------------
+.upper()
+.lower()
+.stripe()--> removes white space from both ends.
+.replace("char", "sub string")
+.split(",")
+.join()---> convert list into string.
+.find()---> returns first index of substring
+.count()---> count occurences of a substring
+.startswith()---> returns boolean
+.endstwith()---> returns boolean
+
+

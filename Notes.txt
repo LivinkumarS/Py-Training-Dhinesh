@@ -292,3 +292,20 @@ Built-in Methods
 .endstwith()---> returns boolean
 
 
+File Handling
+--------------
+in-built method to open a file ---> open('address',mode)
+in-built method to close a file ---> close()
+in-built method to read all the contents in a file ---> read()
+in-built method to read contents line line by line in a file ---> readline()
+
+in-built method to write into a file ---> write()
+in-built method to apppend content to a file ---> write()
+
+
+
+Modes:
+-------
+>> 'r'  ---> Can only read the contents inside that file.
+>> 'w'  ---> Can only write(over write)
+>> 'a'  ---> Can only append content to it.

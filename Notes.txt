@@ -309,3 +309,12 @@ Modes:
 >> 'r'  ---> Can only read the contents inside that file.
 >> 'w'  ---> Can only write(over write)
 >> 'a'  ---> Can only append content to it.
+
+Exception Handling 
+--------------------
+to prevent program crashes due t0 unexpected errors.
+
+try:
+    #block of code 
+except errroName:
+    #block of code
